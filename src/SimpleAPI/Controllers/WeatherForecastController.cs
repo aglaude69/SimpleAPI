@@ -40,7 +40,7 @@ namespace SimpleAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "@WeatherForecast " + id.ToString() ;
+            return "WeatherForecast " + id.ToString() ;
         }
     }
 }
